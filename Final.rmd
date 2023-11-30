@@ -44,6 +44,11 @@ Looking at the data collected, this will be categorical explained by categorical
 
 ### Graphical results
 
+```{r}
+barchartGC(~infected + treatment,data=male)
+barchartGC(~infected + treatment,data=male, type="percent")
+```
+
 ### Numerical Results
 
 ### Inferential Results
